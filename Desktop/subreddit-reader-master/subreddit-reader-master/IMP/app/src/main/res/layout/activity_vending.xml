@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottom"
+    tools:context=".activity_vending">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/location"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Locate one nearby you"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Head to our vending machine for sports apparel"
+            android:textSize="52px"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="80px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_marginLeft="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32px"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Need Extra Clothes?"/>
+
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reward yourself with \nsnack!"
+                android:textSize="32px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:layout_width="408px"
+                android:layout_height="408px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/clothes"
+
+                android:background="@android:color/transparent"/>
+            <ImageButton
+                android:layout_width="408px"
+                android:layout_height="408px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/snacks"
+                android:background="@android:color/transparent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="60dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="32px"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Equipments to have while \nrunning"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:layout_marginLeft="30px"
+                android:textSize="32px"
+                android:text="Replenish your energy with \nenergy drink"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:layout_width="408px"
+                android:layout_height="408px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/running"
+                android:background="@android:color/transparent"/>
+            <ImageButton
+                android:layout_width="408px"
+                android:layout_height="408px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/drinks"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/kcal"
+                android:layout_width="256px"
+                android:layout_height="256px"
+                android:src="@drawable/kcal"/>
+            <ImageView
+                android:layout_marginLeft="20sp"
+                android:id="@+id/distance"
+                android:layout_width="256px"
+                android:layout_height="256px"
+                android:src="@drawable/jogging"/>
+            <ImageView
+                android:layout_marginLeft="20sp"
+                android:id="@+id/steps"
+                android:layout_width="256px"
+                android:layout_height="256px"
+                android:src="@drawable/steps"/>
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

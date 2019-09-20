@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_vending">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Stadiy"
+            android:layout_marginTop="30dp"
+            android:textSize="84px"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#47525E"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Where would you like to start off?"
+            android:textSize="36px"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif-light"
+            android:textColor="#47525E"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/runing"
+                android:layout_width="378px"
+                android:layout_height="472px"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/run"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/border"/>
+            <ImageButton
+                android:layout_width="378px"
+                android:layout_height="472px"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vm"
+                android:background="@drawable/border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:layout_width="378px"
+                android:layout_height="472px"
+                android:layout_marginRight="25dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/cal"
+                android:background="@drawable/border"/>
+            <ImageButton
+                android:id="@+id/nav_locker"
+                android:layout_width="378px"
+                android:layout_height="472px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/locker"
+                android:background="@drawable/border"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:gravity="center_horizontal">
+            <ImageButton
+                android:layout_width="378px"
+                android:layout_height="472px"
+                android:layout_marginRight="25dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lb"
+                android:background="@drawable/border"/>
+            <ImageButton
+                android:id="@+id/nav_locker"
+                android:layout_width="378px"
+                android:layout_height="472px"
+                android:scaleType="fitCenter"
+                android:src="@drawable/feed"
+                android:background="@drawable/border"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
